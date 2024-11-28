@@ -1,0 +1,82 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v32-latin-regular.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212529;
+}
+
+.container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20.4px;
+  margin-bottom: 20.4px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.main-container {
+  width: 635px;
+  height: 301px;
+  margin-left: 15px;
+}
+
+.main-image-container {
+  width: 605px;
+  height: 342px;
+  padding: 0.1px 15px;
+}
+
+.main-title {
+  font-size: 61px;
+  line-height: 73.2px;
+  color: #000000;
+  margin-bottom: 23px;
+  margin-right: 151px;
+  margin-top: 0.42px;
+}
+
+.main-description {
+  width: 517px;
+  height: 72px;
+  color: #212529;
+  margin-bottom: 16px;
+}
+
+.main-btn {
+  width: 153px;
+  height: 43px;
+  border: 2px solid black;
+  border-radius: 25px;
+  color: #ffffff;
+}
